@@ -9,8 +9,10 @@ release.properties
 dependency-reduced-pom.xml
 buildNumber.properties
 .mvn/timing.properties
-.README.md
-
+.MYSELFREADME.md
+docker-compose/mongo_data/
+docker-compose/mysql_data/
+docker-compose/redis/data/
 .idea/
 
 ## File-based project format:
@@ -37,3 +39,9 @@ fabric.properties
 
 # python
 .env
+
+# Mac
+.DS_Store
+
+# MinIO 运行时数据
+docker-compose/minio_data/
